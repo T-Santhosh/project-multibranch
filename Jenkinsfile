@@ -17,8 +17,7 @@ pipeline {
                 script {
                     sh 'docker build -t naresh2603/multi:v1 .'
                     sh 'docker images'
-		    sh 'docker ps'
-		    sh 'docker network ls'
+		    
                 }
             }
         }
